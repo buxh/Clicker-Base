@@ -11,3 +11,6 @@ Simple C++ clicker base for you to get started on your own clicker.
 - [x] Compatibility Mode
 - [x] Self Destruct Method
 - [x] Application Logs
+
+## Support
+All my socials are found [here](https://solo.to/buxh) contact me for help.
