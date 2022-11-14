@@ -42,7 +42,6 @@ extern void clicker::thread() {
     Sleep(500);
     if (utils::debug::logs == true) { std::cout << "[>] Welcome, " << utils::userdata::username << std::endl; }
     for (;; std::this_thread::sleep_for(std::chrono::milliseconds(1))) {
-        SetConsoleTitleA("");
         if (GetAsyncKeyState(VK_XBUTTON1) & 0x8000) { // side mouse button
 
             clicker::mouse::LDOWN();
